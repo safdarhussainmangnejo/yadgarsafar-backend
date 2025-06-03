@@ -29,10 +29,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //connecting to database
-
+//"mongodb+srv://safdar:yadgarsafar@project1.3hqbd.mongodb.net/yadgardb?retryWrites=true&w=majority",
 mongoose
   .connect(
-    //"mongodb+srv://safdar:yadgarsafar@project1.3hqbd.mongodb.net/yadgardb?retryWrites=true&w=majority",
     "mongodb+srv://safdar:yadgarsafar@project1.3hqbd.mongodb.net/?retryWrites=true&w=majority&appName=project1"
     {
       useNewUrlParser: true,
