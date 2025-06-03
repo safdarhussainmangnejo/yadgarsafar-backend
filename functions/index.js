@@ -32,7 +32,8 @@ app.use(bodyParser.json());
 
 mongoose
   .connect(
-    "mongodb+srv://safdar:yadgarsafar@project1.3hqbd.mongodb.net/yadgardb?retryWrites=true&w=majority",
+    //"mongodb+srv://safdar:yadgarsafar@project1.3hqbd.mongodb.net/yadgardb?retryWrites=true&w=majority",
+    "mongodb+srv://safdar:yadgarsafar@project1.3hqbd.mongodb.net/?retryWrites=true&w=majority&appName=project1"
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
